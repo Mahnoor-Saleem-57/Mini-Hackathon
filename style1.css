@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #ffffff;
+    color: #222;
+}
+
+
+header {
+    width: 100%;
+    padding: 22px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.bttn {
+    background: #6C18FF;
+    padding: 10px 22px;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+
+.header {
+    width: 100%;
+    background: #6C18FF;
+    color: #fff;
+    padding: 60px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-left {
+    max-width: 50%;
+}
+
+.tag {
+    
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.head-left h1 {
+    font-size: 46px;
+    margin: 20px 0;
+    line-height: 1.2;
+}
+
+.head-left p {
+    width: 80%;
+    opacity: 0.9;
+    margin-bottom: 25px;
+}
+
+.btn-read {
+    background: #fff;
+    padding: 10px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #6C18FF;
+    font-weight: 600;
+}
+
+.head-right img {
+    width: 380px;
+    border-radius: 20px;
+}
+
+
+
+.header-image{
+    width: 85%;
+    margin: 60px auto;
+    background: #f5f5f5;
+    border-radius: 20px;
+    display: flex;
+    overflow: hidden;
+}
+
+.h-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.h-content {
+    padding: 30px;
+    background: #fff;
+    flex: 1;
+}
+
+.category {
+    padding: 5px 12px;
+    border-radius: 6px;
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+.date {
+    font-size: 13px;
+    opacity: 0.7;
+}
+
+.h-content h2 {
+    margin: 20px 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.h-content p {
+    opacity: 0.85;
+}
+
+.h-footer {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stats span {
+    background: #e3e3e3;
+    padding: 8px 16px;
+    border-radius: 6px;
+    margin-left: 6px;
+}
+
+
+.recent-header {
+    width: 85%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recent-header h2 {
+    font-size: 28px;
+}
+
+.btn-view {
+    background: #6C18FF;
+    padding: 10px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #fff;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #f2f2f2;
+    padding: 40px;
+}
+
+
+
+.main-feature {
+    display: flex;
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.mf-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mf-left {
+    flex: 1.3;
+}
+
+.mf-right {
+    flex: 1;
+    padding: 40px;
+}
+
+.cat {
+    background: #d2ffe0;
+    padding: 6px 12px;
+ 
+    border-radius: 6px;
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+.date {
+    font-size: 13px;
+    opacity: 0.7;
+}
+
+.mf-right h1 {
+    margin: 20px 0;
+    font-size: 32px;
+}
+
+.mf-right p {
+    margin-bottom: 30px;
+    opacity: 0.8;
+    line-height: 1.6;
+}
+
+.btn {
+    background: #6c18ff;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-bottom: 50px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card .content {
+    padding: 18px;
+}
+
+.card h3 {
+    margin: 12px 0;
+    font-size: 20px;
+}
+
+.card p {
+    font-size: 14px;
+    opacity: 0.8;
+    line-height: 1.6;
+}
+
+.read {
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #6c18ff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+
+
+.popular-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.popular-header h2 {
+    font-size: 28px;
+}
+
+.purple {
+    background: #6c18ff;
+}
+
+
+@media (max-width: 900px) {
+    .main-feature {
+        flex-direction: column;
+    }
+   
+}
+
